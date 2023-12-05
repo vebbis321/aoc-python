@@ -46,7 +46,7 @@ def transform_str_num_to_str_digit(num_str: str):
             return "9"
 
 
-with open("./input_2.txt", "r") as f:
+with open("./input.txt", "r") as f:
     for line in f:
         numbers_in_line = []
         current_word = ""
